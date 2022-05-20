@@ -20,7 +20,7 @@
 
 #~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ }
 
-    IP=`wget https://ipecho.net/plain -O - -q ; echo'`
+    IP=`wget https://ipecho.net/plain -O - -q ; echo`
 
     curl -s "https://ipapi.co/${IP}/json/" > $TMPFILE
 
